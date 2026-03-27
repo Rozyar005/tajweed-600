@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>زانستی تەجوید</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="game-container">
+      <h1>زانستی تەجوید 📖</h1>
+
+      <div class="stats-bar">
+        <div class="stat-item">✅ <span id="score">0</span></div>
+        <div class="stat-item">❌ <span id="wrong-count">0</span></div>
+        <button id="bucket-btn" class="stat-item">پێداچوونەوە</button>
+      </div>
+      <div class="nav-controls">
+        <button id="prev-btn" class="nav-btn">⬅️ پێشتر</button>
+        <button id="next-btn" class="nav-btn">دواتر ➡️</button>
+      </div>
+      <br />
+
+      <div id="quiz-area">
+        <div id="feedback-message"></div>
+        <h2 id="question-text">چاوەڕوانبە...</h2>
+        <br />
+        <div id="options-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
