@@ -55,6 +55,6 @@ body { font-family: sans-serif; display: flex; justify-content: center; backgrou
     background: #b2bec3;
     cursor: not-allowed;
 }
-#question-text { font-size: 20px; margin-bottom: 20px; }
+#question-text { font-size: 18px; margin-bottom: 20px; }
 
 #feedback-message { min-height: 25px; margin-bottom: 10px; font-weight: bold; }
